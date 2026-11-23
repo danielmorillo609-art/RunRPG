@@ -1,0 +1,17 @@
+name: RunRPG
+main: com.runrpg.RunRPG
+version: ${version}
+api-version: '1.21'
+description: RPG roguelike por runs
+commands:
+  tienda:
+    description: Abre la tienda de mejoras
+  run:
+    description: "/run start | abort"
+    permission: runrpg.admin
+  setlobby:
+    description: Define la sala principal
+    permission: runrpg.admin
+permissions:
+  runrpg.admin:
+    default: op
