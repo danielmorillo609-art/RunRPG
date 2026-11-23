@@ -1,0 +1,27 @@
+# Sala principal: se define con /setlobby
+exit:
+  charge-seconds: 20   # segundos sosteniendo el Cristal para cargarlo
+
+shop:
+  health: { base-cost: 100, cost-step: 75,  max-level: 10 }   # +1 corazon por nivel
+  slots:  { base-cost: 150, cost-step: 40,  max-level: 33 }   # slots de inventario extra
+  food:   { base-cost: 200, cost-step: 400, max-level: 3 }    # comida inicial
+
+# XP que da cada objeto al volver al lobby (lo que no esta aqui vale 0)
+loot-values:
+  COAL: 1
+  COPPER_INGOT: 1
+  RAW_COPPER: 1
+  LAPIS_LAZULI: 1
+  REDSTONE: 1
+  RAW_IRON: 3
+  IRON_INGOT: 4
+  RAW_GOLD: 5
+  GOLD_INGOT: 6
+  QUARTZ: 3
+  AMETHYST_SHARD: 4
+  EMERALD: 30
+  DIAMOND: 40
+  NETHERITE_SCRAP: 60
+  ANCIENT_DEBRIS: 100
+  NETHERITE_INGOT: 250
